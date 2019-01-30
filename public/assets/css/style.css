@@ -1,0 +1,63 @@
+nav{
+    height: 80px;
+    background-color: seagreen
+}
+
+.footer{
+    height: 80px;
+    background-color: seagreen
+}
+
+#footer{
+    padding-top: 10px;
+}
+
+#logo{
+    padding-left: 10px;
+}
+
+#navList{
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+.jumbotron{
+    height: 450px;
+    background-image: url("https://media.giphy.com/media/nbOgewkBDY9MymUsnl/giphy.gif");
+}
+
+#indexBody{
+    height: 500px;
+}
+
+#projectText{
+    font-size: 50px;
+    font-family: monospace;
+}
+
+/* #name{
+    background-image: url("https://media.giphy.com/media/nbOgewkBDY9MymUsnl/giphy.gif");
+} */
+/* 
+#parallax1{
+    background-image: url("https://media.giphy.com/media/nbOgewkBDY9MymUsnl/giphy.gif");
+} */
+
+/* #name{
+    padding-top: 30px;
+} */
+
+#card1{
+    height: 38%;
+    width: 30%;
+}
+
+#card2, #card3{
+    height: 38%;
+    width: 30%;
+    float: right;
+}
+
+/* #cardImg{
+    height: 210px;
+} */
