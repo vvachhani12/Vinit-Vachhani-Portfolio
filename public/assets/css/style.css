@@ -21,7 +21,7 @@ nav{
     margin-right: 20px;
 }
 
-.jumbotron{
+#homePageImage{
     height: 450px;
     background-image: url("https://media.giphy.com/media/nbOgewkBDY9MymUsnl/giphy.gif");
 }
@@ -35,18 +35,6 @@ nav{
     font-family: monospace;
 }
 
-/* #name{
-    background-image: url("https://media.giphy.com/media/nbOgewkBDY9MymUsnl/giphy.gif");
-} */
-/* 
-#parallax1{
-    background-image: url("https://media.giphy.com/media/nbOgewkBDY9MymUsnl/giphy.gif");
-} */
-
-/* #name{
-    padding-top: 30px;
-} */
-
 #card1{
     height: 38%;
     width: 30%;
@@ -57,7 +45,7 @@ nav{
     width: 30%;
     float: right;
 }
-
-/* #cardImg{
-    height: 210px;
-} */
+#aboutImg{
+    height: 400px;
+    background-image: url("../image/about.jpg")
+}

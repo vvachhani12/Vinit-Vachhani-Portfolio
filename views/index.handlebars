@@ -2,31 +2,36 @@
 <html>
 
 <body>
+    <header>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="/contact">Contact me</a></li>
+            <li class="divider"></li>
+            <li><a href="https://github.com/vvachhani12">Github Link</a></li>
+        </ul>
 
-    <ul id="dropdown1" class="dropdown-content">
-        <li><a href="/contact">Contact me</a></li>
-        <li class="divider"></li>
-        <li><a href="https://github.com/vvachhani12">Github Link</a></li>
-    </ul>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="./assets/image/logo.png" class="brand-logo" id="logo">
+                    <img src="./assets/image/logo.jpg" width="75" height="80" alt="">
+                </a>
+                <ul class="right hide-on-med-and-down" id="navList">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/project">Projects</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Contact<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+            </div>
+        </nav>
 
-    <nav>
-        <div class="nav-wrapper">
-            <a href="./assets/image/logo.png" class="brand-logo" id="logo">
-                <img src="./assets/image/logo.jpg" width="75" height="80" alt="">
-            </a>
-            <ul class="right hide-on-med-and-down" id="navList">
-                {{!-- <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-                <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
-                <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
-                <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li> --}}
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/project">Projects</a></li>
-                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Contact<i class="material-icons right">arrow_drop_down</i></a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="jumbotron jumbotron-fluid">
+        <ul class="sidenav" id="mobile-nav">
+                <li><a class="apc" href="/">Home</a></li>
+                <li><a class="apc" href="/about">About</a></li>
+                <li><a class="apc" href="/project">Projects</a></li>
+
+        </ul>
+    </header>
+
+    <div class="jumbotron jumbotron-fluid" id="homePageImage">
     </div>
     <div class="container" id="indexBody">
         <div class="row">
