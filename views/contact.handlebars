@@ -3,10 +3,14 @@
 
 <body>
 
-    <ul id="dropdown1" class="dropdown-content">
-        <li><a href="/contact">Contact me</a></li>
+    <ul id="dropdown1" class="dropdown-content" style="width:200px;">
+        <li><a href="/contact"><i class="material-icons">email</i>Contact me</a></li>
         <li class="divider"></li>
-        <li><a href="https://github.com/vvachhani12">Github Link</a></li>
+        <li><a href="https://github.com/vvachhani12"><i class="fa fa-github" style="font-size:28px"></i>Github</a></li>
+        <li class="divider"></li>
+        <li><a href="https://www.linkedin.com/in/vinit-vachhani-b0330794/"><i class="fa fa-linkedin" style="font-size:25px"></i>Linkedin</a></li>
+        <li class="divider"></li>
+        <li><a href="./assets/file/Vinit Resume.pdf" download><i class="material-icons">attachment</i>Resume</a></li>
     </ul>
 
     <nav>
@@ -22,6 +26,37 @@
             </ul>
         </div>
     </nav>
+
+    <div class="container" style="padding-top:10px;">
+        <div class="jumbotron fluid-jumbotron center" id="contactMeBackgrd">
+            <h1 style="color:white; padding-top:60px">
+                Contact
+            </h1>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="col s12" style="font-size:35px; font-family:cursive; line-height:260%">
+                    Lets Chat!
+                </div>
+                <div class="col s12" id="chat">
+                    <p>
+                        <h4 style="line-height:160%">
+                            Want to get in touch? Whether you're interested in working on a project with me or for a job 
+                            opportunity, please feel free to email me at <a href="mailto:vinitvachhani@gmail.com">vinitvachhai@gmail.com</a>
+                            and I will get back as soon as I can!
+                        </h4>
+                    </p>
+                    <p>
+                        <h4 style="line-height:200%">
+                            You can also check my social media link in the Contact dropdown to get in touch with me!
+                        </h4>
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="page-footer footer">
         {{!-- <div class="container">
