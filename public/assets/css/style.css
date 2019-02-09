@@ -134,6 +134,15 @@ and (min-width: 300px){
         float: left;
     }
 
+    #aboutImg{
+        height: 170px;
+        justify-content: center;
+    }
+
+    #aboutTitle{
+        padding: 50px;
+    }
+
     #portrait{
         clear: both;
         float: left;
@@ -146,6 +155,11 @@ and (min-width: 300px){
     #card1, #card2, #card3{
         height: 48%;
         width: 100%;
+    }
+
+    #contactMeBackgrd{
+        height: 180px;
+        padding-top: 5px;
     }
 }
 
@@ -167,6 +181,15 @@ and (min-width: 768px){
         float: left;
     }
 
+    #aboutImg{
+        height: 250px;
+        justify-content: center;
+    }
+
+    #aboutTitle{
+        padding: 100px;
+    }
+
     #portrait{
         clear: both;
         float: right;
@@ -183,12 +206,17 @@ and (min-width: 768px){
     }
 
     .dropdown-btn{
-        /* display: block; */
+        display: none;
     }
 
-    .dropdown-container {
+    .dropdown-container{
         display: none;
       }
+
+    #contactMeBackgrd{
+        height: 220px;
+        padding-top: 30px;
+    }
 }
 
 /********************************* *********************************/
