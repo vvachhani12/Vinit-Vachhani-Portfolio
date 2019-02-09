@@ -181,6 +181,14 @@ and (min-width: 768px){
         height: 38%;
         width: 40%;
     }
+
+    .dropdown-btn{
+        /* display: block; */
+    }
+
+    .dropdown-container {
+        display: none;
+      }
 }
 
 /********************************* *********************************/
