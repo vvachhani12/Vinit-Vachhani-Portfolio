@@ -3,38 +3,14 @@
 
 <body>
 
-    <ul id="dropdown1" class="dropdown-content" style="width:200px;">
-        <li><a href="/contact"><i class="material-icons">email</i>Contact me</a></li>
-        <li class="divider"></li>
-        <li><a href="https://github.com/vvachhani12"><i class="fa fa-github" style="font-size:28px"></i>Github</a></li>
-        <li class="divider"></li>
-        <li><a href="https://www.linkedin.com/in/vinit-vachhani-b0330794/"><i class="fa fa-linkedin" style="font-size:25px"></i>Linkedin</a></li>
-        <li class="divider"></li>
-        <li><a href="./assets/file/Vinit Resume.pdf" download><i class="material-icons">attachment</i>Resume</a></li>
-    </ul>
-
-    <nav>
-        <div class="nav-wrapper">
-            <a href="./assets/image/logo.png" class="brand-logo" id="logo">
-                <img src="./assets/image/logo.jpg" width="75" height="80" alt="">
-            </a>
-            <ul class="right hide-on-med-and-down" id="navList">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/project">Projects</a></li>
-                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Contact<i class="material-icons right">arrow_drop_down</i></a></li>
-            </ul>
-        </div>
-    </nav>
-
     <div class="container" id="indexBody">
         <div class="row">
             <div class="col s12 center" id="projectText">
                 Projects
             </div>
         </div>
-        <div class="row">
-            <div class="col s4 m7" id="card1">
+        <div class="row" id="cardContainer">
+            <div id="card1">
                 <div class="card center">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="./assets/image/CarSwap.jpg">
@@ -64,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="col s4 m7" id="card2">
+            <div id="card2">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="./assets/image/restaurant.jpg">
@@ -94,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="col s4 m7" id="card3">
+            <div id="card3">
                 <div class="card center">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" id="cardImg" src="./assets/image/scrapper.jpg">
@@ -127,26 +103,6 @@
         </div>
 
     </div>
-
-    <footer class="page-footer footer">
-        {{!-- <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Car Swap</h5>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                </div>
-            </div>
-        </div> --}}
-
-        <div>
-            <div class="container" id="footer">
-                © 2019 Vinit Vachhani
-                {{!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> --}}
-            </div>
-        </div>
-        
-    </footer>
 
 </body>
 </html>

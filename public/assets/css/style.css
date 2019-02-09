@@ -1,3 +1,5 @@
+
+
 nav{
     height: 80px;
     background-color: seagreen
@@ -5,12 +7,13 @@ nav{
 
 .footer{
     height: 80px;
-    background-color: seagreen
+    background-color: seagreen;
+    padding-top: 30px;
 }
 
-#footer{
+/* #footer{
     padding-top: 10px;
-}
+} */
 
 #logo{
     padding-left: 10px;
@@ -28,8 +31,8 @@ nav{
 
 #IntroPage{
     background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../image/nature.jpg");
-    height: 470px;
-    width: 1140px;
+    /* height: 470px;
+    width: 1140px; */
     background-color:white;
     border: 5px solid white;
     outline: 5px solid black;
@@ -45,7 +48,7 @@ nav{
 
 
 #indexBody{
-    height: 500px;
+    /* height: 100%; */
 }
 
 #projectText{
@@ -53,16 +56,20 @@ nav{
     font-family: monospace;
 }
 
-#card1{
+/* #card1{
     height: 38%;
     width: 30%;
+} */
+#cardContainer{
+    justify-content: center;
 }
 
-#card2, #card3{
+#card1, #card2, #card3{
     height: 38%;
     width: 30%;
-    float: right;
+    padding: 10px;
 }
+
 #aboutImg{
     padding:1px;
     border:1px solid #021a40;
@@ -74,13 +81,24 @@ nav{
 #aboutTitle{
     padding-top: 130px;
     font-family: cursive;
-  
+
 }
 
 #selfIntro{
-    /* margin-right: 20px; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
+}
+
+#selfDetails1, #selfDetails2, #selfDetails3{
+    width: 75%;
+    float: left;
+}
+
+#portrait{
+    clear: both;
+    float: right;
+    position: relative;
+    widows: 25%;
 }
 
 #skillsTitle{
@@ -101,4 +119,91 @@ nav{
     height: 300px;
     outline: 5px solid black;
     border: 5px solid white;
+}
+
+/************ for iPad Screens *************/
+@media screen
+and (min-width: 300px){
+    #homePageImage{
+        height: 250px;
+        margin-left: -50px;
+    }
+
+    #selfDetails1, #selfDetails2, #selfDetails3{
+        width: 100%;
+        float: left;
+    }
+
+    #portrait{
+        clear: both;
+        float: left;
+    }
+
+    #cardContainer{
+        justify-content: center;
+    }
+
+    #card1, #card2, #card3{
+        height: 48%;
+        width: 100%;
+    }
+}
+
+/********************************* *********************************/
+@media screen
+and (min-width: 768px){
+
+    #homePageImage{
+        height: 280px;
+    }
+
+    #selfDetails1{
+        width: 60%;
+        float: left;
+    }
+
+    #selfDetails2, #selfDetails3{
+        width: 100%;
+        float: left;
+    }
+
+    #portrait{
+        clear: both;
+        float: right;
+        position: relative;
+    }
+
+    #cardContainer{
+        justify-content: center;
+    }
+
+    #card1, #card2, #card3{
+        height: 38%;
+        width: 40%;
+    }
+}
+
+/********************************* *********************************/
+@media screen
+and (min-width: 996px){
+
+    #selfDetails1, #selfDetails2, #selfDetails3{
+        width: 70%;
+        float: left;
+    }
+
+    #portrait{
+        clear: both;
+        float: right;
+        position: relative;
+    }
+
+    #cardContainer{
+        justify-content: center;
+    }
+
+    #card1, #card2, #card3{
+        height: 38%;
+        width: 30%;
+    }
 }
